@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Macondo&family=Raleway:wght@200&family=Smooch&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,400&display=swap" rel="stylesheet">
+<link href="styles/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Forms</title>
+</head>
+<body>
+<form action="#" method="post">
+
+    <div class="form">
+<h1 class="center" > Class Sign Up</h1>
+
+    <div class="container">
+        <label for="gender"> Is This For Business or Self </label> <br>
+            <input type="checkbox" name="buss" value="M">Business
+            <input type="checkbox" name="buss" value="F">Self
+            <input type="checkbox" name="buss" value="O">Other
+        </div>
+
+        <div class="container">
+            <label for ="work"> What is your level?  </label>
+            <select name = "work" id="work">    
+                <option value="1">No Experience</option>
+                <option value="2">Beginner</option>
+                <option value="3">Intermediate</option>
+                <option value="4">Advanced</option>
+            </select>
+        </div>
+        <div class="container">
+            <label for="gender">How old is the student?</label> <br>
+                <input type="checkbox" name="buss" value="M">6 or younger
+                <input type="checkbox" name="buss" value="F">7-12
+                <input type="checkbox" name="buss" value="O">13-17
+                <input type="checkbox" name="buss" value="O">18-29
+                <input type="checkbox" name="buss" value="O">30-45
+                <input type="checkbox" name="buss" value="O">46-65
+                <input type="checkbox" name="buss" value="O">66+
+            </div>
+            <div class="container">
+                <label for="gender">What kinf of paints is the studnet interested in using? </label> <br>
+                    <input type="checkbox" name="buss" value="M">Acrylics
+                    <input type="checkbox" name="buss" value="F">Oil
+                    <input type="checkbox" name="buss" value="O">Water Color
+                    <input type="checkbox" name="buss" value="Q"> What the teacher recomends
+                </div>
+
+        <div class="container">
+            <label for ="work"> How many students will be taking lessons? </label>
+            <select name = "work" id="work">    
+                <option value="1">1-2 students</option>
+                <option value="2">3-4 studnets</option>
+                <option value="3">5 or more students</option>
+            </select>
+        </div>
+        <div class="container">
+        <label for ="work"> Lessons: </label>
+        <select name = "work" id="work">    
+            <option value="1">Painting</option>
+            <option value="2">Acyrlic Painting</option>
+            <option value="3">Sculpture</option>
+            <option value="4">Oil Paintings</option>
+            <option value="5">Caricature</option>
+            <option value="9">Others</option>
+        </select>
+    </div>
+    <div class="container">
+        <label>Desired Start Date</label>
+<input type="text" id="oDate" name="oDate" value="mm/dd/yyyy" />
+</div>
+<div class="container">
+    <label for ="work"> How often would you like to meet?  </label>
+    <select name = "work" id="work">    
+        <option value="1">Once a week </option>
+        <option value="2">Twice a week </option>
+        <option value="3">As recomended by teacher</option>
+    </select>
+</div>
+<div class="container">
+    <label for ="work"> How long would you like the lesson to be? </label>
+    <select name = "work" id="work">    
+        <option value="1">30-45 minutes</option>
+        <option value="2">60 minutes</option>
+        <option value="3"> 90 minutes</option>
+        <option value="4">More than 90 minutes</option>
+    </select>
+</div>
+
+<div class="container">
+    <label for="gender">Which days are you available?</label> <br>
+        <input type="checkbox" name="buss" value="M">Monday
+        <input type="checkbox" name="buss" value="F">Tuesday
+        <input type="checkbox" name="buss" value="O">Wednsday
+        <input type="checkbox" name="buss" value="P">Thursday
+        <input type="checkbox" name="buss" value="Q">Friday
+        <input type="checkbox" name="buss" value="R">Saturday
+        <input type="checkbox" name="buss" value="S">Sunday
+    </div>
+
+<div class="container">
+    <label for="gender">Which times are you available?</label> <br>
+        <input type="checkbox" name="buss" value="M">Morning (9am-noon)
+        <input type="checkbox" name="buss" value="F">Early Afternoon (noon-3pm)
+        <input type="checkbox" name="buss" value="O">Later afternoon (3-6 pm)
+        <input type="checkbox" name="buss" value="P">Evening (after 6pm)
+    </div>
+
+
+    <div class="container">
+        <label for ="work"> Would you like this to be for ongoing basis? </label>
+        <select name = "work" id="work">    
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+        </select>
+    </div>
+<div class="container">
+<label for="details"> Additional Details for Teacher </label>
+<br>
+<textarea id="details" rows="5">
+</textarea>
+</div>
+<div class="container">
+    <label for="fName"> First Name
+    <input type="text" id="fName" required /></label> 
+</div>
+
+<div class="container">
+    <label for="lName"> Last Name
+    <input type="text" id="lName" required/></label>
+</div>
+
+<div class="container">
+    <label for="Email"> Email </label>
+    <input type="email" id="Email" required />
+</div>
+<div class="container">
+    <label for="number"> Phone Number </label>
+    <input type="number" id="number" />
+    </div>
+
+<div class="container">
+<button type="submit" class="submit">
+Submit </button>
+<button type="reset" class="reset">
+Reset </button>
+
+</div>
+</form>
+<script src="./main.js"></script>
+</body>
+</html>
